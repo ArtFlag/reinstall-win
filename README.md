@@ -17,10 +17,10 @@
 1. Install the apps:
 
    ```powershell
-   choco install -y directoryopus firefox git `
-   7zip hyper python3 vscode malwarebytes `
-   skype discord spotify steam paint.net `
-   calibre sharpkeys k-litecodecpackfull `
-   keepass musicbee bleachbit jdownloader `
+   choco install -y directoryopus firefox brave `
+   7zip hyper python3 git vscode `
+   skype discord steam uplay epicgameslauncher origin `
+   paint.net calibre sharpkeys k-litecodecpackfull `
+   musicbee spotify bleachbit malwarebytes jdownloader `
    FiraCode deluge authy-desktop
    ```
