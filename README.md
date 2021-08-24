@@ -19,7 +19,7 @@
    ```powershell
    choco install -y directoryopus firefox brave `
    7zip hyper python3 git vscode dropbox `
-   skype whatsapp discord steam uplay epicgameslauncher origin `
+   skype whatsapp discord steam-client uplay epicgameslauncher origin `
    paint.net calibre sharpkeys k-litecodecpackfull `
    musicbee spotify bleachbit malwarebytes jdownloader `
    FiraCode deluge authy-desktop
