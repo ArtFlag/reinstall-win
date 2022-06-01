@@ -11,16 +11,17 @@
 
    ```powershell
    Set-ExecutionPolicy AllSigned
-   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
    ```
 
 1. Install the apps:
 
    ```powershell
    choco install -y directoryopus firefox brave `
-   7zip hyper python3 git vscode dropbox `
-   skype whatsapp discord steam-client uplay epicgameslauncher origin `
+   7zip hyper git vscode dropbox `
+   skype whatsapp signal telegram `
+   discord steam-client uplay epicgameslauncher origin `
    paint.net calibre sharpkeys k-litecodecpackfull `
    musicbee spotify bleachbit malwarebytes jdownloader `
-   FiraCode deluge authy-desktop
+   FiraCode deluge authy-desktop expressvpn
    ```
