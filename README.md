@@ -17,7 +17,7 @@
 1. Install the apps:
 
    ```powershell
-   choco install -y directoryopus firefox brave `
+   choco install -y directoryopus firefox brave workman`
    7zip hyper git vscode dropbox `
    skype whatsapp signal telegram `
    discord steam-client uplay epicgameslauncher origin `
