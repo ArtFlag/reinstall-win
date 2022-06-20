@@ -1,10 +1,5 @@
 # reinstall-win
 
-## Install drivers
-
-- [Drivers](https://www.gigabyte.com/Motherboard/GA-Z77-D3H-rev-10/support#support-dl-driver-audio)
-  for Gigabyte Technology Co., Ltd. Z77-D3H rev 1.0.
-
 ## Install apps
 
 1. Start PowerShell as admin and install [Chocolatey](https://chocolatey.org/install). Run:
@@ -23,5 +18,5 @@
    discord steam-client uplay epicgameslauncher origin `
    paint.net calibre sharpkeys k-litecodecpackfull `
    musicbee spotify bleachbit malwarebytes jdownloader `
-   FiraCode deluge authy-desktop expressvpn
+   FiraCode deluge authy-desktop expressvpn geforce-experience
    ```
