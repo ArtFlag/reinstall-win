@@ -12,11 +12,15 @@
 1. Install the apps:
 
    ```powershell
-   choco install -y directoryopus firefox brave workman`
+   choco install -y directoryopus firefox `
    7zip hyper git vscode dropbox `
    skype whatsapp signal telegram `
    discord steam-client uplay epicgameslauncher origin `
    paint.net calibre sharpkeys k-litecodecpackfull `
-   musicbee spotify bleachbit malwarebytes jdownloader `
+   spotify malwarebytes `
    FiraCode deluge authy-desktop expressvpn geforce-experience
    ```
+
+1. Install [MusicBee](https://getmusicbee.com/downloads/).
+1. Install [Workman layout](https://github.com/workman-layout/Workman/zipball/master)
+1. Use sharpkeys to map caps lock to ctrl.
