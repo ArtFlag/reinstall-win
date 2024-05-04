@@ -12,13 +12,13 @@
 1. Install the apps:
 
    ```powershell
-   choco install -y directoryopus firefox `
+   choco install -y firefox `
    7zip hyper git vscode dropbox `
-   skype whatsapp signal telegram `
-   discord steam-client uplay epicgameslauncher origin `
+   skype signal telegram `
+   discord steam-client epicgameslauncher origin `
    paint.net calibre sharpkeys k-litecodecpackfull `
    spotify malwarebytes `
-   FiraCode deluge authy-desktop expressvpn geforce-experience
+   FiraCode deluge nordvpn geforce-experience
    ```
 
 1. Install [MusicBee](https://getmusicbee.com/downloads/).
