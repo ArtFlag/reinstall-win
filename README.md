@@ -9,18 +9,29 @@
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
    ```
 
-1. Install the apps:
+1. Download [config.json](./config.json) to `~/Downloads`.
+1. Use [WinUtil](https://github.com/ChrisTitusTech/winutil) to reinstall apps.
+   In an admin PowerShell prompt:
 
    ```powershell
-   choco install -y firefox `
-   7zip hyper git vscode dropbox `
-   skype signal telegram `
-   discord steam-client epicgameslauncher origin `
-   paint.net calibre sharpkeys k-litecodecpackfull `
-   spotify malwarebytes `
-   FiraCode deluge nordvpn geforce-experience
+   iex "& { $(irm christitus.com/win) } -Config ~/Downloads/config.json -Run"
    ```
 
-1. Install [MusicBee](https://getmusicbee.com/downloads/).
-1. Install [Workman layout](https://github.com/workman-layout/Workman/zipball/master)
+   > **Note:** To run it manually:
+   >
+   > ```powershell
+   > irm https://christitus.com/win | iex
+   > ```
+
+1. Install remaining apps:
+
+   ```powershell
+   choco install -y `
+   dropbox calibre sharpkeys spotify workman`
+   FiraCode nordvpn geforce-experience
+   ```
+
+   > **Note:**
+   > If the workman package fails, use the [installer](https://github.com/workman-layout/Workman/zipball/master).
+
 1. Use sharpkeys to map caps lock to ctrl.
